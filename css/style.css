@@ -6,6 +6,10 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+body, html {
+  overflow-x: hidden;
+}
+
 /* Start Header */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
