@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniels</title>
+  <link rel="icon" href="./imgs/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap CSS & Font Awesome -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <link rel="stylesheet" href="./css/fontawesome.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!-- Start Header -->
+  <header class="vh-100 text-white overflow-hidden" id="home">
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container p-4">
+        <a class="navbar-brand text-white" href="#">DANIELS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav ms-auto">
+            <li class="nav-item me-3">
+              <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link text-white" href="#services">Services</a>
+            </li>
+
+            <li class="nav-item me-3">
+              <a class="nav-link text-white" href="#portfolio">Works</a>
+            </li>
+
+            <li class="nav-item me-3">
+              <a class="nav-link text-white" href="#clients">Clients</a>
+            </li>
+
+            <li class="nav-item me-3">
+              <a class="nav-link text-white" href="#team">Team</a>
+            </li>
+
+            <li class="nav-item me-3">
+              <a class="nav-link text-white" href="#contact">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="content d-flex flex-column justify-content-center mb align-items-center h-100 text-center">
+      <h5 class="h1">Hello</h5>
+      <p class="lead">I Am a <span>Full Stack Developer.</span></p>
+      <div class="socials">
+        <a href="https://www.facebook.com/yourusername" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.github.com/yourusername" target="_blank"><i class="fa-brands fa-behance"></i></a>
+        <a href="https://www.github.com/yourusername" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Start About -->
+  <section id="about">
+    <div class="container p-4 p-sm-0 mt-5">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 d-flex justify-content-center about-img">
+          <img src="./imgs/hero.jpg" alt="About" class="img-fluid w-100 d-block" />
+        </div>
+        <div class="col-lg-6 col-sm-12 d-flex flex-column justify-content-center">
+          <h2 class="h1 mt-5">About Me.</h2>
+          <p class="lead">UI / UX DESIGNER & WEB DEVELOPER</p>
+          <p class="lead">I am <span class="fw-bold text-secondary">Jerry Daniels</span> Lorem Ipsum is simply dummy
+            text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but
+            also the leap into electronic but also the leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</p>
+          <div class="progress" role="progressbar" aria-label="HTML Skill" aria-valuenow="95" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 95%" data-value="95">Web Design</div>
+          </div>
+          <div class="progress" role="progressbar" aria-label="HTML Skill" aria-valuenow="80" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 80%" data-value="80">Branding</div>
+          </div>
+          <div class="progress" role="progressbar" aria-label="HTML Skill" aria-valuenow="90" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 90%" data-value="90">Development</div>
+          </div>
+          <div class="button-container">
+            <a href="#" class="btn">Download c.v</a>
+            <a href="#" class="btn">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About -->
+
+  <!-- Start Services -->
+  <section id="services" class="d-flex justify-content-center align-items-center">
+    <div class="container-sm mb-5">
+      <h3 class="text-center services-header">Services.</h3>
+      <div class="p-line"></div>
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card text-center border-0 mb-4 w-100">
+              <div class="icon text-center services-icon">
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title mt-3 h2">Web Design</h5>
+                <p class="card-text lead text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's
+                  standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card text-center border-0 mb-4 w-100">
+              <div class="icon text-center services-icon">
+                <i class="fa fa-bullhorn"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title mt-3 h2">Branding</h5>
+                <p class="card-text lead text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's
+                  standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card text-center border-0 mb-4 w-100">
+              <div class="icon text-center services-icon">
+                <i class="fa-solid fa-umbrella"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title mt-3 h2">Development</h5>
+                <p class="card-text lead text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's
+                  standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card text-center border-0 mb-4 w-100">
+              <div class="icon text-center services-icon">
+                <i class="fa-regular fa-gem"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title mt-3 h2">Creative Design</h5>
+                <p class="card-text lead text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's
+                  standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card text-center border-0 mb-4 w-100">
+              <div class="icon text-center services-icon">
+                <i class="fa fa-television"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title mt-3 h2">Fully Responsive</h5>
+                <p class="card-text lead text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's
+                  standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card text-center border-0 mb-4 w-100">
+              <div class="icon text-center services-icon">
+                <i class="fa fa-camera"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title mt-3 h2">Retina Ready</h5>
+                <p class="card-text lead text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's
+                  standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Services -->
+
+  <!-- Start Portfolio -->
+  <section id="portfolio">
+    <div class="container  p-sm-0 mt-5">
+      <h3 class="text-center services-header">Portfolio.</h3>
+      <div class="p-line"></div>
+      <div class="container p-4">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-12 d-flex justify-content-center align-items-center">
+            <ul class="portfolio-menu">
+              <li class="active" data-filter="*">All</li>
+              <li data-filter=".branding">Brand</li>
+              <li data-filter=".design">Design</li>
+              <li data-filter=".graphic">Graphic</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row gy-3">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="portfolio-card">
+              <img src="./imgs/portfolio/1.jpg" alt="Portfolio Image">
+              <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <div class="icon-container">
+                    <a href="project-link.html" class="icon" title="Go to project"><i class="fa fa-chain-broken"></i></a>
+                    <a href="project-image.jpg" class="icon" title="View image"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                  </div> 
+              </div>
+            </div>
+          </div>
+          <!-- Repeat for other portfolio items -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="portfolio-card">
+              <img src="./imgs/portfolio/2.jpg" alt="Portfolio Image">
+              <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <div class="icon-container">
+                    <a href="project-link.html" class="icon" title="Go to project"><i class="fa fa-chain-broken"></i></a>
+                    <a href="project-image.jpg" class="icon" title="View image"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                  </div> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="portfolio-card">
+              <img src="./imgs/portfolio/3.jpg" alt="Portfolio Image">
+              <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <div class="icon-container">
+                    <a href="project-link.html" class="icon" title="Go to project"><i class="fa fa-chain-broken"></i></a>
+                    <a href="project-image.jpg" class="icon" title="View image"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                  </div> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="portfolio-card">
+              <img src="./imgs/portfolio/4.jpg" alt="Portfolio Image">
+              <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <div class="icon-container">
+                    <a href="project-link.html" class="icon" title="Go to project"><i class="fa fa-chain-broken"></i></a>
+                    <a href="project-image.jpg" class="icon" title="View image"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                  </div> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="portfolio-card">
+              <img src="./imgs/portfolio/5.jpg" alt="Portfolio Image">
+              <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <div class="icon-container">
+                    <a href="project-link.html" class="icon" title="Go to project"><i class="fa fa-chain-broken"></i></a>
+                    <a href="project-image.jpg" class="icon" title="View image"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                  </div> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="portfolio-card">
+              <img src="./imgs/portfolio/6.jpg" alt="Portfolio Image">
+              <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <div class="icon-container">
+                    <a href="project-link.html" class="icon" title="Go to project"><i class="fa fa-chain-broken"></i></a>
+                    <a href="project-image.jpg" class="icon" title="View image"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                  </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Portfolio -->
+
+  <!-- Start Testimonials -->
+  <section id="clients">
+    <div class="container p-4">
+      <h3 class="text-center services-header">Testimonials.</h3>
+      <div class="p-line"></div>
+      <div class="row">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="bg-secondary" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="bg-secondary" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-content">
+                <img src="./imgs/1_New1.jpg" class="d-block" alt="...">
+                <div class="carousel-caption">
+                  <p class="lead text-secondary">
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                  </p>
+                  <h6 class="text-dark">Alex Smith</h6>
+                  <p class="lead text-secondary">Evanto Customer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="carousel-content">
+                <img src="./imgs/1_New1.jpg" class="d-block" alt="...">
+                <div class="carousel-caption">
+                  <p class="lead text-secondary">
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                  </p>
+                  <h6 class="text-dark">Alex Smith</h6>
+                  <p class="lead text-secondary">Evanto Customer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="carousel-content">
+                <img src="./imgs/1_New1.jpg" class="d-block" alt="...">
+                <div class="carousel-caption">
+                  <p class="lead text-secondary">
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                  </p>
+                  <h6 class="text-dark">Alex Smith</h6>
+                  <p class="lead text-secondary">Evanto Customer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Testimonials -->
+  <div class="container p-5 bg-white mt-3 info">
+    <div class="row text-center">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <i class="fa fa-users"></i>
+        <h2 class="h1">850</h2>
+        <p class="lead text-secondary">Happy Customers</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <i class="fa fa-thumbs-up"></i>
+        <h2 class="h1">230</h2>
+        <p class="lead text-secondary">Complete Projects</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <i class="fa fa-bullhorn"></i>
+        <h2 class="h1">9450</h2>
+        <p class="lead text-secondary">Lines Of Code</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <i class="fa fa-cloud-download"></i>
+        <h2 class="h1">780</h2>
+        <p class="lead text-secondary">Files Downloaded</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Start Team-->
+  <section id="team">
+    <div class="container p-4">
+      <h3 class="text-center services-header">Our Team.</h3>
+      <div class="p-line"></div>
+     <div class="row gy-3">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card w-100 p-0">
+          <div class="card-image">
+            <img src="./imgs/1.jpg" class="card-img-top" alt="...">
+            <div class="overlay">
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h4>John Doe</h4>
+            <h5 class="fw-bold">Front-End Developer</h5>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card w-100 p-0">
+          <div class="card-image">
+            <img src="./imgs/2.jpg" class="card-img-top" alt="...">
+            <div class="overlay">
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h4>Dave Wood</h4>
+            <h5 class="fw-bold">BACK-END DEVELOPER</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card w-100 p-0">
+          <div class="card-image">
+            <img src="./imgs/1.jpg" class="card-img-top" alt="...">
+            <div class="overlay">
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h4>Claire Chedd</h4>
+            <h5 class="fw-bold">BACK-END DEVELOPER</h5>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+  </section>
+  <!-- End Team -->
+
+  <!-- Start Contact -->
+  <section id="contact">
+    <div class="container p-4 pb-0">
+      <h3 class="text-center services-header">Contact Me.</h3>
+      <div class="p-line"></div>
+    </div>
+
+    <div class="container contact-container">
+      <div class="row justify-content-center align-items-center">
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card text-center border-0 mb-4 w-100 contact-card">
+            <div class="icon text-center services-icon">
+              <i class="fa fa-location-arrow"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title mt-3 h2">Address</h5>
+              <p class="card-text lead text-secondary">6834 Hollywood Blvd - Los Angeles CA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card text-center border-0 mb-4 w-100 contact-card">
+            <div class="icon text-center services-icon">
+              <i class="fa fa-envelope"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title mt-3 h2">Email</h5>
+              <p class="card-text lead text-secondary">Support@website.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card text-center border-0 mb-4 w-100 contact-card">
+            <div class="icon text-center services-icon">
+              <i class="fa fa-phone"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title mt-3 h2">Phone</h5>
+              <p class="card-text lead text-secondary">+20 010 2517 8918</p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <form class="w-100">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Name">
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Email">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="message" rows="6" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="">Submit</button>
+        </form>
+    </div>
+  </section>
+  <!-- End Contact -->
+
+  <!-- Start Footer -->
+  <footer class="bg-black text-secondary text-center py-4 footer">
+    Copy Right 2018 © By Daniels All Rights Reserved
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Bootstrap JS-->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
